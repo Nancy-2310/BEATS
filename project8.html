@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 8</title>
+    <style>
+        body{
+            height: 100vh;
+            width: 100vw;
+            background-color: rgb(36, 32, 62);
+            color: white;
+        }
+        .main{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: rgb(36, 32, 62);
+            color: white;
+        }
+        .hand{
+            height: 15px;
+            width: 15px;
+        }
+        .developer{
+            color: yellow;
+            font-size: smaller;
+            margin: 0px;
+            padding: 0px;
+        }
+        .system{
+            height: 150px;
+            width: 250px;
+        }
+        .box1{
+            display: flex;
+            gap: 20px;
+            
+        }
+        .box2{
+            display: flex;
+            margin: 0%;
+            justify-content:space-evenly;
+            padding: 0px;
+            gap: 0px;
+        }
+        .text2{
+            display: flex;
+            justify-content: center;
+            margin: 25px;
+        }
+        .text{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .developer{
+            color: yellow;
+        }
+        .pic{
+            height: 150px;
+            width: 150px;
+            margin: 0%;
+            padding: 0px;
+            gap: 0px;
+        }
+        figure{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        ul{
+            list-style: none;
+            display: flex;
+            gap: 10px;
+        }
+        nav {
+            display: flex;
+            justify-content: flex-end;
+
+        }
+        ul{
+            display: flex;
+            justify-content: end;
+            margin: 0;
+            padding: 0;
+            
+        }
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        li {
+            margin-left: 1em;
+        }
+        li:hover{
+            background-color: blue;
+            border-radius: 5px;
+        }
+        .contact{
+            text-decoration: underline;
+            text-decoration-color: blue;
+        }
+        .git{
+            height: 15px;
+            width: 15px;
+            
+        }
+        .home{
+            background-color: blue;
+            border-radius: 5px;
+        }
+        .git:hover{
+            transform: scale(1.8);
+        }
+        .contact:hover{
+            transform: scale(1.8);
+        }
+        p{
+            display: inline;
+        }
+        .barsicon{
+            display: none;
+        }
+        @media screen and (min-width:0px) and (max-width: 600px){
+            .box1{
+                display: flex;
+                flex-direction: column;  
+                align-items: center; 
+            }
+            .text{
+                display: flex;
+                flex-direction: column;
+                align-items: center; 
+            }
+            .box2{
+                display: flex;
+                flex-direction: column; 
+            }
+            p{
+                display: block;
+                padding: 0px;
+                margin: 0px;
+            }
+            .hand2{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            nav{
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            ul {
+                flex-direction: column;
+                align-items: flex-start;
+                display: none;
+            }
+            ul li {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+            .barsicon {
+                display: block;
+                cursor: pointer;
+                color: white;
+            }
+            .barsicon span {
+                display: block;
+                height: 2px;
+                width: 20px;
+                margin-bottom: 5px;
+                color: white;
+                background-color: white;
+            }
+            
+
+
+    }
+        
+    </style>
+</head>
+<body>
+        <header>
+            <nav>
+                <ul>
+                    <li class="home">Home</li>
+                    <li>Projects</li>
+                    <li>Contact</li>
+                    <li>About Us</li>
+                </ul>
+                <div class="barsicon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </header>
+        
+    <div class="main">
+        
+        <div class="box1">
+            <div class="text">
+                <span class="hand2">
+                    <img class="hand" src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/10%20Feb%202023/assets/waving-hand.png?raw=true" alt="">
+                    <p>Hi Everyone </p> 
+                </span>
+
+                <span> Mark Anderson</span>
+
+                <span class="developer">Developer</span> 
+
+            </div>
+            <img src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/10%20Feb%202023/assets/pc-image.png?raw=true" alt="" class="system">
+        </div>
+
+        <div class="text2">PROJECTS</div>
+
+        <div class="box2">
+            <figure>
+                <img class="pic" src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/10%20Feb%202023/assets/image.png?raw=true" alt="">
+
+                <figcaption>PROJECT 1</figcaption>
+            </figure>
+            <figure>
+                <img src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/10%20Feb%202023/assets/image.png?raw=true" alt="" class="pic">
+                <figcaption>PROJECT 2</figcaption>
+            </figure>
+            
+        </div>
+        
+        <div class="box2">
+            <figure>
+                <img class="pic" src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/10%20Feb%202023/assets/image.png?raw=true" alt="">
+                <figcaption>PROJECT 3</figcaption>
+            </figure>
+
+            <figure>
+                <img src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/10%20Feb%202023/assets/image.png?raw=true" alt="" class="pic">
+                <figcaption>PROJECT 4</figcaption>
+            </figure>
+    
+            </div>
+        <p class="contact">Contact me</p>
+
+        <div  class="box3">
+            <img class="git" src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/10%20Feb%202023/assets/github.png?raw=true" alt="">
+            <img class="git" src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/10%20Feb%202023/assets/linkedin.png?raw=true" alt="">
+            <img class="git" src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/10%20Feb%202023/assets/outlook.png?raw=true" alt="">
+        </div>
+    </div>
+
+</body>
+</html>
